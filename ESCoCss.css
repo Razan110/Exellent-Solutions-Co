@@ -1,0 +1,692 @@
+
+/*header edits*/
+.header {
+    padding-bottom:15px;
+    background:white;
+    max-width:100%;
+    height:auto;
+  }
+  
+  .header a{
+    margin-bottom: 1px;
+    font-family: Arial;
+    padding:10px ;
+    text-decoration: none;
+    font-size:10px;
+    color: white;
+    float:left;
+    background-color: #c08e3f;
+  }
+  .header a:hover{
+    background-color:#b77c1c;
+    color: white;
+  }
+  
+  .header input{
+    float:left;
+    padding: 6px;
+    border: none;
+    font-size: 12px;
+  }
+  
+  /*header edits*/
+  
+  /*bar*/
+  .textF{
+    display: inline-block;
+    background: #c08e3f;
+    width: 100%;
+    height:auto;
+  
+  }
+  .textF img{
+    float: left;
+    width: 89px;
+    height: 70px;
+    margin-left: 15px;
+
+}
+
+.name{
+  float: left;
+  margin-right: 0px;
+  margin-left: 10px;
+  margin-top: 8px;
+  text-align: left;
+  padding-right: 200px;
+}
+.name h1{
+  font-size: 16px;
+  font-family:Serif;
+  color: white;
+
+  margin-top:0px;
+}
+.name h2{
+ color:white;
+ font-size: 13px;
+ 
+}
+  /* Add a black background color to the top navigation */
+  .bar{
+   
+    background:#c08e3f;
+    overflow: hidden;
+  }
+  /* Style the links inside the navigation bar */
+  .bar a {
+    float: left;
+    display: block;
+    text-decoration: none;
+    color:white;
+    font-family: Arial;
+    text-align: center;
+    padding: 25px 20px;
+    font-size: 17px;
+  
+  }
+
+
+
+  /* Change the color of links on hover */
+  
+  .bar a:hover{
+    background-color:#b77c1c;
+    color: white;
+  }
+  /* Add an active class to highlight the current page */
+  /*look at this its not acttivated*/
+  .bar a.active{
+    background-color:#bb9d6c;
+    text-align: center;
+  }
+  /* Hide the link that should open and close the topnav on small screens */
+  
+  .bar .icon{
+    display: none;
+  }
+  .logIn a{
+    background-color:#b77c1c ;
+  }
+
+  /*bar*/
+  
+  /* JoinUs */
+  
+.JoinUs{
+
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  background-image: url('/img/jus5.jpg');
+  background-size:100%;
+  max-width:100%;
+  height:auto;
+  background-repeat: no-repeat;
+  padding-bottom: 0px;
+
+}  
+.JoinUs input{
+    border-radius: 4px;
+    border:none; 
+    margin-top:430px;
+    margin-left: 260px;
+    margin-right:0px;
+    margin-bottom:40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+select {
+
+    /* styling */
+  
+    background-color: white;
+    border:none; 
+    border-radius: 4px;
+    display: inline-block;
+    font: inherit;
+    margin-top:430px;
+    margin-left:5px;
+    margin-right:0px;
+    margin-bottom:40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* reset */
+  
+      
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  
+  
+  /* arrows */
+  select.minimal {
+    font-family: Arial;
+    background-color:white ;
+    color:gray;
+    text-align: center;
+  }
+  
+  select.minimal:focus {
+    background-color:white ;
+    background-position:
+      calc(100% - 15px) 1em,
+      calc(100% - 20px) 1em,
+      calc(100% - 2.5em) 0.5em;
+    background-repeat: no-repeat;
+    border-color: #2448cb;
+    outline: 0;
+  }
+  
+  select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+  }
+  
+  /*Styling Selectbox*/
+  
+  
+  /* search button*/
+  
+  
+  .JoinUs button{
+    background-color: #c08e3f;
+    color: black;
+    margin-top:430px;
+    margin-left:5px;
+    margin-right:0px;
+    margin-bottom:40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 4px;
+    border:none; 
+    
+  } 
+  .JoinUs button:hover{
+    background-color: #b77c1c;
+  }
+  @media screen and (max-width: 800px) {
+    .JoinUs {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  /*OurServices*/
+  .HowCanWeServeYou-section{
+    padding-bottom: 150px;
+  }
+  .HowCanWeServeYou{
+    color: #000;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 60px;
+  }
+  .table ,tr,th{
+    border:none;
+    padding-left: 120px;
+    padding-bottom:20px;
+  }
+  .OurServices img{
+   width: 80px;
+   height: 80px;
+  }
+  .OurServices2_Img img{
+    width: 80px;
+    height: 80px;
+  }
+  .OurServices3_Img img{
+    width: 80px;
+    height: 80px;
+  }
+  .OurServices4_Img img{
+    width: 80px;
+    height: 80px;
+  }
+
+ 
+  .OurServicestext button{
+    cursor: pointer;
+    font-size: 15px;
+    font-size: Arial;
+    border:#b77c1c solid 1px;
+    background-color: white;
+  }
+
+  .OurServicestext button:hover{
+    background-color:#b77c1c;
+    color: white;
+  }
+
+
+  
+
+
+  /*Achivments*/
+  
+  .modal {
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: none;
+    z-index: 20;
+    width:500px;
+    max-width: 80%;
+    text-align: center;
+    color: white;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom:1%;
+    padding-top:1%;
+  }
+  .modal.active{
+    transform: translate(-50%,-50%) scale(1);
+  }
+  .modal img{
+    width: 80px;
+    height: 80px;
+  }
+  .modal p{
+    font-size: 15px;
+    padding-bottom: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-bottom:1px white solid;
+  }
+
+.ModalManpower-Input{
+  margin: 15px auto;
+  width:80%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  
+}
+.ModalManpower-Input input{
+  width: 80%;
+  height:30px;
+  padding-left:5px;
+  margin-top:2%;
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom:1px solid white ;
+  color: white;
+  font-size: 15px;
+}
+.ModalManpower-Input ::placeholder{
+  color: white;
+  font-size: 15px;
+} 
+.ModalManpower-Massage {
+  margin: 15px auto;
+  width:80%;
+  padding-bottom: 15px;
+  
+}
+.ModalManpower-Massage textarea{
+  width: 80%;
+  height:130px;
+  padding-left:5px;
+  margin-top:2%;
+  border: 1px solid white;
+  outline: none;
+  background: transparent;
+  color: white;
+  font-size: 15px;
+}
+.ModalManpower-Massage ::placeholder{
+  color: white;
+  font-size: 15px;
+} 
+.close-button button{
+  text-align: center;
+  width: 20%;
+  height:30px;
+  color: #c08e3f;
+  font-size: 15px;
+  border: none;
+  background: white;
+  cursor: pointer;
+  text-align: center;
+}
+
+  
+  #overlay{
+    position: fixed;
+    opacity: 0;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.5);
+    pointer-events: none;
+    z-index:1;
+  }
+  #overlay.active{
+    opacity: 1;
+    pointer-events: all;
+  }
+
+/*call */
+.ModalCallCenter {
+  position: fixed;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: none;
+  z-index: 20;
+  width:500px;
+  max-width: 80%;
+  text-align: center;
+  color: white;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom:1%;
+  padding-top:1%;
+}
+.ModalCallCenter.active{
+  transform: translate(-50%,-50%) scale(1);
+}
+.ModalCallCenter img{
+  width: 80px;
+  height: 80px;
+}
+.ModalCallCenter p{
+  font-size: 15px;
+  padding-bottom: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  border-bottom:1px white solid;
+}
+
+.ModalCallCenter-Input{
+margin: 15px auto;
+width:80%;
+padding-top: 15px;
+padding-bottom: 15px;
+
+}
+.ModalCallCenter-Input input{
+width: 80%;
+height:30px;
+padding-left:5px;
+margin-top:2%;
+border: none;
+outline: none;
+background: transparent;
+border-bottom:1px solid white ;
+color: white;
+font-size: 15px;
+}
+.ModalCallCenter-Input ::placeholder{
+color: white;
+font-size: 15px;
+} 
+.ModalCallCenter-Massage {
+margin: 15px auto;
+width:80%;
+padding-bottom: 15px;
+
+}
+.ModalCallCenter-Massage textarea{
+width: 80%;
+height:130px;
+padding-left:5px;
+margin-top:2%;
+border: 1px solid white;
+outline: none;
+background: transparent;
+color: white;
+font-size: 15px;
+}
+.ModalCallCenter-Massage ::placeholder{
+color: white;
+font-size: 15px;
+} 
+.CallCenter-close-button button{
+text-align: center;
+width: 20%;
+height:30px;
+color: #c08e3f;
+font-size: 15px;
+border: none;
+background: white;
+cursor: pointer;
+text-align: center;
+}
+
+
+#overlayCallCenter{
+  position: fixed;
+  opacity: 0;
+  top:0;
+  left:0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,.5);
+  pointer-events: none;
+  z-index:1;
+}
+#overlayCallCenter.active{
+  opacity: 1;
+  pointer-events: all;
+}
+
+  
+  /*Achivments*/
+
+  .AchievementsClints{
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+    padding-bottom: 50px;
+
+  }
+  .AchievementsClints h1{
+    font-family: Arial;
+    font-size: 20px;
+    color: balck;
+  }
+  .Achievements{
+    text-align: center;
+    color:balck;
+    margin-top: 0px;
+    margin-left: 35px;
+    margin-right: 70px;
+    padding-top:0px;
+    padding-right:0px;
+    margin-bottom: 10px;
+    width: 25%;
+    float: left; 
+  }
+  .slideshow-container {
+    float: left;
+    padding-left:0px;
+    position: relative;
+    margin: auto;
+
+  }
+  .slideshow-container img{
+    width: 350px;
+    height: 250px;
+  }
+  
+
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 8px;
+    padding: 8px 8px;
+    position: absolute;
+    top: 0;
+  }
+  
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+/* might delet this later*/
+  @media screen and (max-width: 800px) {
+    .AchievementsClints,.Achievements {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  /*Achivments ends */
+
+/*our Clint*/
+
+  .ourClint{
+    width: 66%;
+    float: left;
+    border-radius: 4px;
+    border:none; 
+    height: 300px;
+    border: #c08e3f solid 1px;
+    margin-top:5px;
+    margin-left:0px;
+    margin-right:0px;
+    padding-top:0px;
+    padding-right:0px;
+    margin-bottom: 10px;
+    overflow-y: scroll;
+    
+  }
+  @media screen and (max-width: 800px) {
+    .ourClint , .Achievements {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  .ourClintContant{ 
+    margin-left:10px;
+    margin-top: 0px;
+  
+  
+   /* padding-top: 0px;
+    padding-bottom: 247px;*/
+    overflow: auto;
+    white-space: nowrap;
+  }
+  .bar-ourClintContant{
+    position: absolute;
+    background-color: white;
+    width: 800px;
+  }
+  .ButtonOurClintContant{
+  margin-top: 38px;
+  
+  }
+  .ButtonOurClintContant button{
+    border: none;
+    background-color:white ;
+    width: 120px;
+    height: 100px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    float: left;
+    margin-right: 10px;
+
+  }
+
+  /*footer  193bb8  #2448cb */
+  .footer {
+    display: table;
+    width: 100%;
+    background: #c08e3f;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif; 
+  }
+  .footer a{
+    color: white;
+    text-decoration: none;
+  }
+  .callUs{
+  width: 20%;
+  display: inline-block;
+  padding-left: 50px;
+  }
+  .callUs img{
+  cursor: pointer;
+  padding-right: 5px;
+  float: left;
+  width: 20px;
+  height: 20px;
+ 
+  }
+  .social{
+    width: 35%;
+    display: inline-block;
+  
+  }
+  .social img{
+    cursor: pointer;
+    padding-right: 5px;
+    width: 20px;
+    height: 20px;
+    padding-bottom: 2px;
+  }
+  .map{
+    width: 90%;
+    display: inline-block;
+   padding-left: 50px;
+  }
+  .map img {
+    cursor: pointer;
+    padding-right: 5px;
+    width: 20px;
+    height: 20px;
+    float: left;
+  }
+
+  @media screen and (max-width: 800px) {
+    .callUs , .footer, .social, .map {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+
+  
+
+
